@@ -3,3 +3,7 @@ dist/
 npm-debug.log*
 .DS_Store
 reports/
+
+# 作業說明與報告（本地保留，不推上 repo）
+2026-CI_HW.pdf
+314552010_*
