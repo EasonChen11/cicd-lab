@@ -1,2 +1,6 @@
 dist/
 node_modules/
+reports/
+snippets/
+*.md
+docker-compose.yml
