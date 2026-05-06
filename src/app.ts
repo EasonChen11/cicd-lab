@@ -14,8 +14,10 @@ export function buildApp(options: FastifyServerOptions = {}) {
   });
 
   app.get('/health', async () => {
+    const broken: number = 'not a number';
     return {
-      status: 'ok'
+      status: 'ok',
+      broken
     };
   });
 
